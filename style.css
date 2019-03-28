@@ -18,6 +18,13 @@ header{
 .navigation-title{
   text-align: center;
 }
+header::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 .navigation-right > button{
   margin-right: 5px;
   background-color: #6288a5;
@@ -29,3 +36,75 @@ header{
   border-color: #326891;
 
 }
+
+.advertisment{
+	width:100%;
+	background-color: lightgrey;
+	text-align:center;
+	margin-bottom:20px;
+	padding:75px 0;
+}
+
+.article-title{
+	margin-left: 450px;
+}
+.article-title>h1{
+	margin-top: 40px;
+    font-style: italic;
+    font-size: 36px;
+    max-width: 346.152px;
+}
+.article-image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	text-align:center;
+}
+.article-image>img{
+	width:945px;
+}
+.article-image>div{
+	width:100%;
+}
+.author-bio, .author{
+	text-align:left;
+	width:800px;
+	margin-left:230px;
+	color:grey;
+}
+
+.author{
+	font-size:12px;
+	line-height: 2em
+}
+
+.article{
+	margin-top: 20px;
+	margin-left:300px;
+	width:800px;
+}
+
+.social-wrapper{
+	margin-top:20px;
+}
+.date{
+	display:inline-block;
+	margin-top:20px;
+	color:grey;
+}
+.social{
+	float:right;
+	
+}
+.article-content{
+	clear:right;
+	margin:30px 0;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+	line-height: 28px;
+	
+
+}
+
+
