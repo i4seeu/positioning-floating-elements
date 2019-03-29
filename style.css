@@ -25,8 +25,11 @@ header::after {
     clear: both;
     visibility: hidden;
 }
-.navigation-right > button{
-  margin-right: 5px;
+.navigation-right >button{
+	margin-right: 5px;
+}
+
+button{ 
   background-color: #6288a5;
   color: white;
   padding: 11px 12px 4px 12px;
@@ -91,7 +94,6 @@ header::after {
 .date{
 	display:inline-block;
 	margin-top:20px;
-	color:grey;
 }
 .social{
 	float:right;
@@ -133,7 +135,7 @@ header::after {
 	 position: relative;
 	 margin: 10px;
  }
- .link-image-div,.link-image{
+ .link-image-div, .link-image{
 	  height: 90px;
 		width: 80px;
  }
@@ -143,3 +145,54 @@ header::after {
 	 left: 85px;
 	 font-size: 13px;
  }
+ .signup>h4{
+	margin-bottom:10px;
+	width:200px;
+ }
+ 
+ .signup>p{
+	color:rgb(102, 102, 102); 
+	line-height: 1rem;
+	font-size: 0.8125rem;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	margin-bottom:10px;
+
+}
+.signup>button{
+	width:100%
+}
+
+.video-container{
+	margin-bottom:30px;
+	
+}
+.txt-gray{
+	color:rgb(102, 102, 102);
+}
+.txt-sm{
+	font-size:16px;
+	line-height: 20px;
+}
+iframe{
+	border:none;
+}
+.jumbo-image-container>img{
+	width:650px;
+	height:350px;
+}
+.comment-btn-container{
+	display:inline-block;
+}
+.comment-btn{
+	
+	width:300px;
+	margin-top:5px;
+}
+.down-social::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: right;
+    visibility: hidden;
+}
+
