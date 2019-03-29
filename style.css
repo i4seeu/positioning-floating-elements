@@ -107,15 +107,39 @@ header::after {
 
 }
 .article-part2{
-  width: 1170px;
+  width: 1200px;
+	position: relative;
+	margin-left: calc((100% - 1200px) / 2);
 }
 .middle-content{
-  margin-left: calc((100% - 570px) / 2);
+  margin: 40px auto;
 	font-family: "Times New Roman", Times, serif;
   width: 650px;
   font-size: 19px;
 	line-height: 28px;
  }
  .editor-pick{
-   float: right;
+   position: absolute;
+	 width: 220px;
+	 top: 160px;
+	 right: 0px;
+	 overflow: hidden;
+ }
+ p{
+	 margin-bottom: 20px;
+ }
+ .link{
+	 width: 200px;
+	 position: relative;
+	 margin: 10px;
+ }
+ .link-image-div,.link-image{
+	  height: 90px;
+		width: 80px;
+ }
+ .link-p-div{
+   position: absolute;
+	 top: 5px;
+	 left: 85px;
+	 font-size: 13px;
  }
