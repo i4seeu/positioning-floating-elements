@@ -114,7 +114,7 @@ button{
 	margin-left: calc((100% - 1200px) / 2);
 }
 .middle-content{
-  margin: 40px auto;
+  margin: 40px 200px;
 	font-family: "Times New Roman", Times, serif;
   width: 650px;
   font-size: 19px;
@@ -144,6 +144,10 @@ button{
 	 top: 5px;
 	 left: 85px;
 	 font-size: 13px;
+ }
+ .link a{
+	 text-decoration: none;
+	 color:#000;
  }
  .signup>h4{
 	margin-bottom:10px;
@@ -196,10 +200,11 @@ iframe{
     visibility: hidden;
 }
 .article-bottom{
- width: 100%;
+ 	width: 100%;
 	padding-left: 3%;
-  display: flex;
+  	display: flex;
 	max-width: 1200px;
+	margin:auto;
 }
 
 .article-bottom-container{
@@ -230,4 +235,129 @@ iframe{
 	width: 100%;
 	padding-top: 8px;
 	margin-bottom: 15px;
+}
+.figure-container a{
+	text-decoration: none;
+    line-height: 22px;
+	color: #121212;
+	font-weight: bold;
+}
+.bd-top{
+	border-top: 1px solid rgb(0, 0, 0);
+}
+
+.sidebar-bottom-elements >p{
+	padding-bottom:10px;
+	padding-top:20px;
+	border-top: 1px solid rgb(209, 206, 206);
+}
+
+footer{
+	margin:auto;
+	max-width: 1200px;
+	padding-bottom:10px;
+	border-top: 4px solid rgb(226, 226, 226);
+}
+.footer-top{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+	margin-bottom:15px;
+}
+.footer-logo{
+	margin-top: 10px;
+	width: 225px;
+    height: 30px;
+}
+
+.go-to {
+    margin-top: 20px;
+    color: #6288a5;
+    text-decoration: none;
+    font-size: 11px;
+}
+.footer-container{
+
+	max-width: 1200px;
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-categories ul{
+		text-align: left;
+}
+.footer-categories ul li{
+	display: block;
+	width: 100%;
+	padding-top:10px;
+	cursor: pointer;
+
+}
+.subscribe{
+	padding-left:15px;
+	border-left:1px solid rgb(226, 226, 226);
+}
+.subscribe-img-container{
+
+	width:80%
+}
+.subscribe-img-container >img{
+	widows: 80%;
+	height:300px;
+}
+
+.bottom-navigation{
+	text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 9px;
+    border-top: 1px solid #ebebeb;
+    height: 55px;
+}
+.bottom-navigation ul{
+	display:flex;
+	justify-content: center;
+}
+
+.bottom-navigation ul li a {
+    font-size: 11px;
+    color: #999;
+	font-weight: 300;
+	display: block;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+.sep{
+	height:70px;
+}
+.bottom-bar{
+	
+	height: 60px;
+	width: 100%;
+	text-align:center;
+	border-top: 1px solid black;
+	position:fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+.bottom-bar-txt {
+    display: inline-block;
+    padding-top: 20px;
+}
+.subscription-link{
+	display: inline;
+	position:absolute;
+	right:10px;
+	padding-top: 20px;
+}
+.subscription-link >img{
+	height:20px;
+	width: 20px;
 }
