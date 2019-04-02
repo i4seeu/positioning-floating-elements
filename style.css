@@ -370,82 +370,33 @@ ul {
 	font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
 	color: #666;
 }
-.universe {
-	position: absolute;
-	top: 760px;
-	left: 200px;
-	width: 173px;
-	color: #333;
+.inflation {
+	display: flex;
+	justify-content: space-between;
+	width: 720px;
+}
+
+.upper {
+	margin-top: -535px;
+	margin-bottom: 85px;
 }
 .general-paragraph {
-	font-family: nyt-franklin, arial, helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 17px;
-	font-weight: 300;
-	color: #000000;
+	font-size: 13px;
+	line-height: 20px;
+	width: 160px;
 }
-.g-sc {
-	font-size: 11px;
-	font-weight: bold;
-	letter-spacing: 0.05em;
+.lower {
+	margin-top: 5px;
 }
-.enough {
-	position: absolute;
-	top: 760px;
-	left: 390px;
-	width: 173px;
-	color: #333;
-}
-.distant-coffee {
-	position: absolute;
-	top: 760px;
-	left: 580px;
-	width: 173px;
-	color: #333;
-}
-.everywhere-coffee {
-	position: absolute;
-	top: 760px;
-	left: 770px;
-	width: 173px;
-	color: #333;
-}
-/* second section */
-.not-enough {
-	position: absolute;
-	top: 1060px;
-	left: 200px;
-	width: 173px;
-	color: #333;
-}
-.inflat {
-	position: absolute;
-	top: 1060px;
-	left: 390px;
-	width: 173px;
-	color: #333;
-}
-.fluctuation {
-	position: absolute;
-	top: 1060px;
-	left: 580px;
-	width: 173px;
-	color: #333;
-}
-.expansion {
-	position: absolute;
-	top: 1060px;
-	left: 770px;
-	width: 173px;
-	color: #333;
+
+.line-div {
+	width: 55px;
+	border-top: 1px solid #000;
+	margin: 13px 0;
 }
 .story-footer {
 	margin-top: 30px;
 	display: block;
 	max-width: 945px;
 	font-size: 15px;
-}
-.line-div {
-	width: 55px;
-	border-top: 1px solid #000;
 }
